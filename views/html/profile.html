@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/profile.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/134ff1f3d5.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <ul>
+            <li><a class="active" href="settings.html"><i class="fas fa-user-circle fa-lg"></i></a></li>
+            <li><a class="active" href="explore.html">explore</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="sidebar">
+
+</div>
+<div class="layout">
+    <div class="row">
+        <div class="column">
+            <img src="../img/paint.jpg" style="width:100%" alt="">
+            <img src="../img/bird.jpg" style="width:100%" alt="">
+            <img src="../img/swirl2.jpg" style="width:100%" alt="">
+            <img src="../img/road.jpg" style="width:100%" alt="">
+            <img src="../img/background.jpg" style="width:100%" alt="">
+        </div>
+        <div class="column">
+            <img src="../img/background.jpg" style="width:100%" alt="">
+            <img src="../img/blackwhite.jpg" style="width:100%" alt="">
+            <img src="../img/shark.jpg" style="width:100%" alt="">
+            <img src="../img/cows.jpg" style="width:100%" alt="">
+            <img src="../img/bird.jpg" style="width:100%" alt="">
+        </div>
+        <div class="column">
+            <img src="../img/squirrel.jpg" style="width:100%" alt="">
+            <img src="../img/swirl.jpg" style="width:100%" alt="">
+            <img src="../img/jfish.jpg" style="width:100%" alt="">
+            <img src="../img/raccoon.jpg" style="width:100%" alt="">
+            <img src="../img/paint.jpg" style="width:100%" alt="">
+        </div>
+        <div class="column">
+            <img src="../img/paintflower.jpg" style="width:100%" alt="">
+            <img src="../img/cat.jpg" style="width:100%" alt="">
+            <img src="../img/bunny.jpg" style="width:100%" alt="">
+            <img src="../img/meerkat.jpg" style="width:100%" alt="">
+            <img src="../img/swirl2.jpg" style="width:100%" alt="">
+        </div>
+    </div>
+
+<div class="container">
+    <h3>Leave a critique for the artist</h3>
+    <form method="POST" action="/profile">
+        <br>
+        <label for="fname">Name </label><br>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <br>
+        <br>
+        <label for="email">Email </label><br>
+        <input type="text" id="email" name="email" placeholder="Your email address..">
+        <br>
+        <br>
+        <label for="comment">Comment </label><br>
+        <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+    <div class="container2">
+        <h3>Tips for how to critique</h3>
+        <ul>
+            <li>You do not need to be a professional art critic to participate.</li>
+            <li>Be respectful and courteous to the artists work.</li>
+            <li>Be specific about the piece of artwork that you are critiquing.</li>
+            <li>Comments or questions must pertain to artwork ONLY.</li>
+            <li>No slander, inappropriate comments, or personal attacks tolerated. </li>
+            <li>Use your best judgement! There are no right or wrong answers.</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
+

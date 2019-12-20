@@ -1,0 +1,100 @@
+html {
+  background-color: #eaf0fa;
+}
+
+h1 {
+  text-align: center;
+  font: 60px 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #98b6e7;
+  text-shadow: 2px 2px #4675d2;
+  margin-top: 0;
+}
+header .nav ul li a {
+  border: 1px hidden blue;
+  letter-spacing: 2px;
+  text-align: right;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.nav ul li {
+  height: auto;
+  border: 1px hidden black;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  padding: 0;
+}
+.nav ul li a {
+  border: 1px solid red;
+  text-decoration: none;
+  list-style-type: none;
+  color: #4E5680;
+  float: left;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+
+.sign-up-box {
+  font-family: 'Raleway', arial, sans;
+  width: 500px;
+  padding: 30px;
+  background: #FFFFFF;
+  margin: 10px auto;
+  margin-top: 0px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.sign-up-box h2 {
+  background-color: #4E5680;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+.sign-up-box input[type="text"],
+.sign-up-box input[type="email"],
+.sign-up-box input[type="number"],
+.sign-up-box input[type="password"],
+.sign-up-box textarea,
+.sign-up-box select
+{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font: 14px 'Raleway', Arial, sans-serif;
+  color: #000;
+  height: 45px;
+}
+
+.sign-up-box input[type="button"],
+.sign-up-box input[type="submit"] {
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #4E5680;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-top: 18px;
+  padding: 8px 18px;
+  text-decoration: none;
+}
+
+.sign-up-box input[type="button"]:hover,
+.sign-up-box input[type="submit"]:hover {
+  background-color:#98b6e7;
+}

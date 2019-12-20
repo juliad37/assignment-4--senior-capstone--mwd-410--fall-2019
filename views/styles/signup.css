@@ -1,0 +1,249 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #eaf0fa;
+}
+body html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  width: 30%;
+  z-index: 1;
+  height: 100%;
+  position: relative;
+  float: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  color: #4E5680;
+}
+
+header .nav ul li a {
+  border: 1px hidden blue;
+  letter-spacing: 2px;
+  text-align: right;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.nav ul li {
+  height: auto;
+  border: 1px hidden black;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  padding: 0;
+}
+.nav ul li a {
+  border: 1px solid red;
+  text-decoration: none;
+  list-style-type: none;
+  color: #B39332;
+  float: left;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font: 140px "Raleway", sans-serif;
+  font-weight: bolder;
+  text-align: left;
+  color: #98b2e6;
+  margin-top: 0;
+  text-shadow: 2px 2px #4675d2;
+}
+
+#cname, #rname {
+  margin: 0;
+  font-size: 120px;
+}
+
+#rname {
+  margin-left: 5%;
+}
+
+#home {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  float: left;
+  color: #4CAF50;
+  z-index: 4;
+}
+
+#signup {
+  position: relative;
+  float: right;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+  font-family: "Raleway", sans-serif;
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.22);
+  z-index: 4;
+}
+#signup h2 {
+  background-color: #4E5680;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+#signup input[type=text],
+#signup input[type=email],
+#signup input[type=password] {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font: 14px "Raleway", sans-serif;
+  color: #000000;
+  height: 45px;
+}
+#signup input[type=submit] {
+  border: none;
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #4E5680;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  padding: 8px 18px;
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+  position: relative;
+  top: 100%;
+  left: 50%;
+  transform: translate(-100%, 30%);
+}
+#signup input[type=submit]:hover {
+  background-color: #4675d2;
+}
+#signup input:focus,
+#signup textarea:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1040px) {
+  #cname, #rname {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #signup {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bg {
+    width: 180px;
+    height: 180px;
+    margin-left: 20%;
+  }
+
+  #cname, #rname {
+    font-size: 75px;
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #rname {
+    margin-left: 25%;
+  }
+
+  #home {
+    top: 20%;
+    right: 8%;
+  }
+
+  #signup {
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bg {
+    width: 80px;
+    height: 80px;
+  }
+
+  #cname, #rname {
+    font-size: 30px;
+    margin-left: 20%;
+  }
+
+  #rname {
+    margin-left: 25%;
+  }
+
+  #signup {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 250px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .bg {
+    width: 80px;
+    height: 80px;
+  }
+
+  #cname, #rname {
+    font-size: 30px;
+    margin-left: 20%;
+  }
+
+  #rname {
+    margin-left: 25%;
+  }
+
+  #signup {
+    margin-left: 0;
+    margin-right: 5%;
+    width: 250px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bg {
+    width: 80px;
+    height: 80px;
+  }
+
+  #cname, #rname {
+    font-size: 30px;
+    margin-left: 20%;
+  }
+
+  #rname {
+    margin-left: 25%;
+  }
+
+  #signup {
+    margin-left: 0;
+    margin-right: 0;
+    width: 245px;
+  }
+}
+
+/*# sourceMappingURL=signup.css.map */

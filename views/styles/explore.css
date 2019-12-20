@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  border: black hidden;
+  background-color: #ffffff;
+}
+header .nav ul li a {
+  position: relative;
+  border: 1px hidden blue;
+  letter-spacing: 2px;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  top: 10px;
+  width: auto;
+  height: auto;
+}
+
+.nav ul li {
+  height: auto;
+  border: 1px hidden black;
+  font-size: 20px;
+  display: inline;
+  position: relative;
+}
+.nav ul li a {
+  border: 1px solid red;
+  text-decoration: none;
+  list-style-type: none;
+  color: #4E5680;
+  margin-right: 5px;
+  float: left;
+}
+
+#banner {
+  width: 100%;
+  height: auto;
+  background-color: #4E5680;
+  position: relative;
+  top: 20px;
+  float: left;
+  margin-bottom: 50px;
+  font-family: "Raleway", "sans-serif";
+}
+#banner h1 {
+  font-size: 104px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  #banner {
+    margin-bottom: 25px;
+  }
+  #banner h1 {
+    font-size: 75px;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 33%;
+    flex: 33%;
+    max-width: 33%;
+  }
+
+  header {
+    padding: 0;
+    height: 10px;
+  }
+  header .nav ul li a {
+    top: 0;
+  }
+
+  .nav ul li {
+    font-size: 14px;
+  }
+
+  #banner {
+    margin-bottom: 25px;
+  }
+
+  #banner h1 {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=explore.css.map */

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"project.crtiques"}],"uuid":"5b6c25c8f43d4b16aef6d360fee497d5"}
